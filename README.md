@@ -1,2 +1,3 @@
 # wiki
-keeping track of the drops in a sea of Linux learning
+
+A small-sized collection of some useful tips and bits of information I tend to forget about my favorite GNU/Linux programs.
