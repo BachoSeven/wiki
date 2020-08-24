@@ -174,19 +174,19 @@ Wi-Fi Protected Setup requirement. It executes a brute force attack against an a
 number. Once the WPS pin is found, an attacker can recover the WPA PSK and alternately reconfigure the AP’s wireless settings
 which could lead towards an insecure network. Although Reaver does not support reconfiguring the AP, this can be accomplished
 with wpa_supplicant once the WPS pin is recovered. Reaver requires the libpcap (packet capture and transmission) and libsqlite3
-(database) libraries and can be built and installed by running the command:
-
-1 $ ./configure
-2 $ make
-3 # make install
-
+(database) libraries and can be built and installed by running the commands:
+``` sh
+./configure
+make
+make install
+```
 To remove everything installed/created by Reaver, the following command can be used:
-1 # make distclean
+`make distclean`
 
 Once installed the tool can simply be started using the command:
-1 # ./reaver
+`./reaver`
 
-The ‘–help’ argument can be used to show all the arguments available within the tool. Figure 4 shows the help list of the
+The `–help` argument can be used to show all the arguments available within the tool. Figure 4 shows the help list of the
 Reaver.
 
 ![figure-4](pics/figure-4.png)
@@ -197,10 +197,10 @@ _(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)_
 The only requirement it has is a wireless card capable of raw packet injection. To start the process the wireless card must be
 put on monitor mode. This can be easily done using the airmon-ng tool from the wireless security testing aircrack-ng tool suite
 as shown below.
-1 # airmon-ng start wlan0
+`airmon-ng start wlan0`
 
 The only essential arguments to Reaver are the interface name and the BSSID of the target AP, an example of which is shown below.
-1 # reaver -i mon0 -b 00:01:02:03:04:05
+`reaver -i mon0 -b 00:01:02:03:04:05`
 
 Sometimes Reaver just tries the same pin over and over again. This might be because WPS is not enabled on the AP. Run the walsh
 tool (included in the Reaver-1.3 release) to scan for WPS-enabled APs and make sure the target AP is listed.
@@ -213,14 +213,14 @@ twice (-vv) will increase verbosity and display each pin number as it is attempt
 | *Figure 5. Reaver in action* |
 _(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)_
 
-To speed up the attack the delay between pin attempts can be disabled by adding ‘–d 0? on the command line (default delay: 1
+To speed up the attack the delay between pin attempts can be disabled by adding `–d 0` on the command line (default delay: 1
 second).
 
-1 # reaver -i mon0 -b 00:01:02:03:04:05 -vv -d 0
+`reaver -i mon0 -b 00:01:02:03:04:05 -vv -d 0`
 
-Another option that can speed up an attack is ‘–dh-small’. This option tells Reaver to use small Diffie-Hellman secret
+Another option that can speed up an attack is `–dh-small`. This option tells Reaver to use small Diffie-Hellman secret
 numbers in order to shrink the computational load on the target AP. In case the attacker does not want to reveal his/her MAC
-address, Reaver also supports MAC spoofing with the ‘–mac’ option, but it must be ensured that the MAC address of your
+address, Reaver also supports MAC spoofing with the `–mac` option, but it must be ensured that the MAC address of your
 wireless card’s physical interface (wlan0) must be changed – not the monitor mode interface (usually mon0) – otherwise the
 attack won’t work. Reaver keeps on brute forcing the PINs until a successful attempt. It has been stated that some
 models/vendors/ISPs come pre-configured with a default pin. Some common pins are 12345670, 00005678, 01230000, etc. Reaver
