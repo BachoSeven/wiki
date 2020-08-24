@@ -14,9 +14,8 @@ WLANs. Following is the list of the IEEE 802.11 network protocol standards.
 ## Protocols
 
 ![figure-1](pics/figure-1.png)
-
-802.11 network standards are shown in Figure 1.
-Figure 1. 802.11 Network Standards (source: http://www.wikipedia.org)
+|:--:|
+| *Figure 1. 802.11 Network Standards (source: http://www.wikipedia.org)* |
 
 Some years back, wireless networks were only a niche technology used for very specific applications. But nowadays they are
 everywhere and every now and then we find a new Wi-Fi access point through our smart phones, tablets or laptops – most of which
@@ -68,9 +67,9 @@ or timed-out after two minutes (or whatever amount of time the vendor has specif
 Windows with support for WPA and WPA2.
 
 ![figure-2](pics/figure-2.png)
-
-Figure 2. Activated virtual push button (Windows 7: Enrollee)
-Source: http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf
+|:--:|
+| *Figure 2. Activated virtual push button (Windows 7: Enrollee)* |
+_Source: http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf_
 
 ### PIN Mode:
 
@@ -92,9 +91,9 @@ This option is called wps_reg in wpa_cli.
 The PIN Method is a mandatory standard method; every Wi-Fi Protected Setup (WPS) certified product needs to support it.
 
 ![figure-3](pics/figure-3.png)
-
-Figure 3.WPS PIN on D-Link router
-Source: http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf
+|:--:|
+| *Figure 3.WPS PIN on D-Link router* |
+_Source: http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf_
 
 ### Out-of-Band modes:
 
@@ -191,10 +190,9 @@ The ‘–help’ argument can be used to show all the arguments available withi
 Reaver.
 
 ![figure-4](pics/figure-4.png)
-
-Figure 4. Help list of Reaver
-
-(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)
+|:--:|
+| *Figure 4. Help list of Reaver* |
+_(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)_
 
 The only requirement it has is a wireless card capable of raw packet injection. To start the process the wireless card must be
 put on monitor mode. This can be easily done using the airmon-ng tool from the wireless security testing aircrack-ng tool suite
@@ -211,10 +209,9 @@ For extra information output, the verbose option may be provided using the argum
 twice (-vv) will increase verbosity and display each pin number as it is attempted as shown in Figure 5.
 
 ![figure-5](pics/figure-5.png)
-
-Figure 5. Reaver in action
-
-(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)
+|:--:|
+| *Figure 5. Reaver in action* |
+_(Source: http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)_
 
 To speed up the attack the delay between pin attempts can be disabled by adding ‘–d 0? on the command line (default delay: 1
 second).
@@ -230,10 +227,9 @@ models/vendors/ISPs come pre-configured with a default pin. Some common pins are
 attempts known default pins first as a better heuristic. Figure 6 shows a successfully cracked WPS PIN in 32,286 seconds.
 
 ![figure-6](pics/figure-6.png)
-
-Figure 6. Successful Recovery
-
-(Source:http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)
+|:--:|
+| *Figure 6. Successful Recovery* |
+_(Source:http://www.hack4fun.eu/2012/01/reaver-wps-wpscrack/)_
 
 Due to interference or low signal strength Reaver sometimes can’t associate with the AP. It might also be a driver issue.
 
