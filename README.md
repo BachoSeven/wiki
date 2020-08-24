@@ -3,7 +3,7 @@
 A small-sized collection of some useful tips and bits of knowledge I tend to forget about my favorite GNU/Linux programs.
 
 ## Table of Contents
-1. [Arduino]
+1. [Arduino](arduino.md)
 2. [AUR](aur.md)
 3. [Games](games.md)
 4. [Linux Miscellaneous](linux-misc.md)
