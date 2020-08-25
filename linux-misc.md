@@ -27,6 +27,7 @@
 - lean
 
 ## Randomly nice packages
-- fzwal-git
-- mgba
-- snake-ncurses
+- `fzwal-git`
+- `mgba`
+- `snake-ncurses`
+- `vixl44-git`: pixel art :]
