@@ -1,5 +1,7 @@
 ## Random zsh facts
 
+- use `zsh -f` to run it without *rc files!
+
 - zsh has a **Tetris** game, both as a widget or as a curses program:
 ``` sh
 autoload -U tetris
