@@ -14,6 +14,11 @@
 - \v : Insert the version of the OS, eg. the build-date etc.
 ```
 
+## Virtual Console
+# Scrollback
+
+- `Shift`+[`PgUp`,`PgDown`]
+
 ## X Server
 - `xset q` gives you lots of nice information about your current session's configuration.
 
