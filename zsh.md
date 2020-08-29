@@ -41,3 +41,28 @@ bindkey '^w' vi-backward-kill-word
 ```
 
 - Not binded: `^a`, `^b`, `^k`
+
+# List of keys (as recognized by my terminal):
+- [F1]='^[OP'
+- [F2]='^[OQ'
+- [F3]='^[OR'
+- [F4]='^[OS'
+- [F5]='^[[15~'
+- [F6]='^[[17~'
+- [F7]='^[[18~'
+- [F8]='^[[19~'
+- [F9]='^[[20~'
+- [F10]='^[[21~'
+- [F11]='^[[23~'
+- [F12]='^[[24~'
+- [Backspace]='^?'
+- [Insert]='^[[4h'
+- [Home]='^[[H'
+- [PageUp]='^[[5~'
+- [Delete]='^[[P'
+- [End]='^[[4~'
+- [PageDown]='^[[6~'
+- [Up]='^[[A'
+- [Left]='^[[D'
+- [Down]='^[[B'
+- [Right]='^[[C'
