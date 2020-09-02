@@ -1,8 +1,9 @@
-## Random zsh facts
+# Random zsh facts
 
 - use `zsh -f` to run it without *rc files!
 
 - zsh has a **Tetris** game, both as a widget or as a curses program:
+
 ``` sh
 autoload -U tetris
 zle -N tetris
@@ -11,7 +12,9 @@ bindkey '^k' tetris
 autoload -U tetriscurses
 tetriscurses
 ```
+
 - zsh has a built-in Regen batch file editor: it can move, copy or link files based on a pattern
+
 ``` sh
 zmv '(*)(word.).lis' '$1$2.txt'
 zcp [same as zmv -C]
@@ -19,11 +22,11 @@ zln [same as zmv -L]
 ```
 
 
-## Completion
+# Completion
 
 - Tip: run e.g. `ls *(<tab>` to get help regarding globing.
 
-## Key bindings
+# Key bindings
 
 - `^z` is to put job into background (suspend)
 
@@ -40,9 +43,18 @@ bindkey '^h' backward-delete-char
 bindkey '^w' vi-backward-kill-word
 ```
 
+### Vi-mode
+#### History search from `cmd` mode
+```
+"/" vi-history-search-backward
+"?" vi-history-search-forward
+"n" vi-repeat-search
+"N" vi-rev-repeat-search
+```
+
 - Not binded: `^a`, `^b`, `^k`
 
-# List of keys (as recognized by my terminal):
+### List of keys (as recognized by my terminal):
 - [F1]=`^[OP`
 - [F2]=`^[OQ`
 - [F3]=`^[OR`
