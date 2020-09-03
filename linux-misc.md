@@ -36,3 +36,6 @@
 - `mgba`
 - `snake-ncurses`
 - `vixl44-git`: pixel art :]
+
+## Mount .iso dvd image
+- `sudo mount -t iso9660 -o loop .iso /mnt/iso`
