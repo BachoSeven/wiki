@@ -13,3 +13,6 @@
 
 - `earlier` command
 - `ge` and `gE` are `e` and `E` but going backwards
+
+## Fold-Markers
+- Using `foldmethod=marker`, one can write `{{{1` in a comment to open a fold (no need to close it, but you can with `}}}1`)

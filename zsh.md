@@ -32,10 +32,6 @@ zln [same as zmv -L]
 
 - Some defaults:
 ``` sh
-# Incremental search for / and ? (standard behaviour)
-bindkey -M vicmd "/" history-incremental-search-backward
-bindkey -M vicmd "?" history-incremental-search-forward
-
 # allow ctrl-h, ctrl-w, ctrl-? for char and word deletion
 # (standard behaviour)
 bindkey '^?' backward-delete-char
