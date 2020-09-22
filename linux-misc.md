@@ -1,3 +1,6 @@
+## Finding which processes are accessing certain files
+- `fuser -fv FILE`
+
 ## /etc/issue file escape codes
 ``` sh
 - \b : Insert the baudrate of the current line.
@@ -39,3 +42,80 @@
 
 ## Mount .iso dvd image
 - `sudo mount -t iso9660 -o loop .iso /mnt/iso`
+
+## Grub
+### Interesting "ricing" kernel command-line options
+``` ini
+vt.color=       [VT] Default text color.
+                        Format: 0xYX, X = foreground, Y = background.
+                        Default: 0x07 = light gray on black.
+
+
+         vt.default_blu= [VT]
+                         Format: <blue0>,<blue1>,<blue2>,...,<blue15>
+                         Change the default blue palette of the console.
+                         This is a 16-member array composed of values
+                         ranging from 0-255.
+
+         vt.default_grn= [VT]
+                         Format: <green0>,<green1>,<green2>,...,<green15>
+                         Change the default green palette of the console.
+                         This is a 16-member array composed of values
+                         ranging from 0-255.
+
+         vt.default_red= [VT]
+                         Format: <red0>,<red1>,<red2>,...,<red15>
+                         Change the default red palette of the console.
+                         This is a 16-member array composed of values
+                         ranging from 0-255.
+
+         vt.default_utf8=
+                         [VT]
+                         Format=<0|1>
+                         Set system-wide default UTF-8 mode for all tty's.
+                         Default is 1, i.e. UTF-8 mode is enabled for all
+                         newly opened       vt.cur_default= [VT] Default cursor shape.
+                        Format: 0xCCBBAA, where AA, BB, and CC are the same as
+                        the parameters of the <Esc>[?A;B;Cc escape sequence;
+                        see VGA-softcursor.txt. Default: 2 = underline.
+
+        vt.default_blu= [VT]
+                        Format: <blue0>,<blue1>,<blue2>,...,<blue15>
+                        Change the default blue palette of the console.
+                        This is a 16-member array composed of values
+                        ranging from 0-255.
+
+        vt.default_grn= [VT]
+                        Format: <green0>,<green1>,<green2>,...,<green15>
+                        Change the default green palette of the console.
+                        This is a 16-member array composed of values
+                        ranging from 0-255.
+
+        vt.default_red= [VT]
+                        Format: <red0>,<red1>,<red2>,...,<red15>
+                        Change the default red palette of the console.
+                        This is a 16-member array composed of values
+                        ranging from 0-255.
+
+        vt.default_utf8=
+                        [VT]
+                        Format=<0|1>
+                        Set system-wide default UTF-8 mode for all tty's.
+                        Default is 1, i.e. UTF-8 mode is enabled for all
+                        newly opened terminals.
+
+        vt.global_cursor_default=
+                        [VT]
+                        Format=<-1|0|1>
+                        Set system-wide default for whether a cursor
+                        is shown on new VTs. Default is -1,
+                        i.e. cursors will be created by default unless
+                        overridden by individual drivers. 0 will hide
+                        cursors, 1 will display them.
+
+        vt.italic=      [VT] Default color for italic text; 0-15.
+                        Default: 2 = green.
+
+        vt.underline=   [VT] Default color for underlined text; 0-15.
+                        Default: 3 = cyan.
+```

@@ -15,6 +15,9 @@
 	-`10ff`, python spin-off of 10fastfingers.co
 ]
 
-## Steam
+## Steam/GOG
 - `tboi`
 - `140`
+- `VVVVVV`
+- `Broforce`
+- `The Escapists`
