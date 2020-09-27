@@ -15,9 +15,13 @@
 	-`10ff`, python spin-off of 10fastfingers.co
 ]
 
-## Steam/GOG
+## Others
+- `ccleste, Classic Celeste ported to C.`
+
+## Steam/GOG/itch.io
 - `tboi`
 - `140`
 - `VVVVVV`
 - `Broforce`
 - `The Escapists`
+- `Celeste`

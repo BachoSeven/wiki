@@ -39,6 +39,10 @@
 - `mgba`
 - `snake-ncurses`
 - `vixl44-git`: pixel art :]
+### disk usage apps
+- `ncdu`
+- `duf`
+- `vizex`
 
 ## Mount .iso dvd image
 - `sudo mount -t iso9660 -o loop .iso /mnt/iso`
