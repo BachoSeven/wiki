@@ -10,10 +10,8 @@
 - `nudoku` Ncurses sudoku
 
 ## Typing tutors
-- `typiskt` bash clone of \
-[
-	-`10ff`, python spin-off of 10fastfingers.co
-]
+- `typiskt` bash clone of
+-`10ff`, python spin-off of https://10fastfingers.com
 
 ## Others
 - `ccleste, Classic Celeste ported to C.`
