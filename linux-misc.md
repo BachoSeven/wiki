@@ -1,3 +1,9 @@
+## Resolving relative paths and symlinks
+- If you need the absolute path of anything, including following symlinks to their actual file path, use
+  `readlink -f` or `realpath`.
+- If you just need the absolute path AND don't want to follow symlinks, use
+  `realpath -s`
+
 ## Finding which processes are accessing certain files
 - `fuser -fv FILE`
 
