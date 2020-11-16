@@ -15,6 +15,7 @@
 
 ## Others
 - `ccleste, Classic Celeste ported to C.`
+- `Mindustry` [still in development]
 
 ## Steam/GOG/itch.io
 - `tboi`
