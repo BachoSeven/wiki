@@ -68,5 +68,5 @@ EORUBY
 	--preview "echo {-1} | xargs readable -q | w3m -T text/html"	\
 	--preview-window=right:30% $opts				|
 	awk 'BEGIN { FS = "\t" } { print $2 }'				|
-	setsid -f xargs -r $BROWSER &>/dev/null
+	setsid -f xargs -r $BROWSER >/dev/null
 ```
