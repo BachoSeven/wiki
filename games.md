@@ -24,3 +24,4 @@
 - `Broforce`
 - `The Escapists`
 - `Celeste`
+- `SuperMeatBoy`

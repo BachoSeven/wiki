@@ -102,7 +102,8 @@ bindkey '^w' vi-backward-kill-word
 
 - Not binded: `^a`, `^b`, `^k`
 
-### History bangs
+### HISTORY
+#### History bangs
 ```
 !42      # re-run command 42
 !!       # re-run last command
@@ -112,6 +113,8 @@ bindkey '^w' vi-backward-kill-word
 !$       # last  argument  of last command
 !!*      # all   arguments of last command
 ```
+#### History complete words
+`Alt+/` (amazing)
 
 ### List of keys (as recognized by my terminal):
 #### HINT: type `read` and hit keys :)
