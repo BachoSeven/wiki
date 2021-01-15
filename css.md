@@ -1,0 +1,19 @@
+## list types
+disc
+armenian
+circle
+cjk-ideographic
+decimal
+decimal-leading-zero
+georgian
+hebrew
+hiragana
+hiragana-iroha
+katakana
+katakana-iroha
+lower-alpha
+lower-greek
+lower-latin
+lower-roman
+none
+square
