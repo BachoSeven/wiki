@@ -129,3 +129,8 @@ vt.color=       [VT] Default text color.
         vt.underline=   [VT] Default color for underlined text; 0-15.
                         Default: 3 = cyan.
 ```
+
+## Securely removing files
+```
+shred --remove FILE
+```

@@ -19,3 +19,7 @@
 
 # Fold-Markers
 - Using `foldmethod=marker`, one can write `{{{1` in a comment to open a fold (no need to close it, but you can with `}}}1`)
+
+# AutoCommands
+## Temporarily disable aucmds
+`:au!`
