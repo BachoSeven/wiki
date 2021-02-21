@@ -16,6 +16,7 @@
 ## Others
 - `ccleste, Classic Celeste ported to C.`
 - `Mindustry` [still in development]
+- `eartwalker`, a self-hosted GeoGuesser.
 
 ## Steam/GOG/itch.io
 - `tboi`

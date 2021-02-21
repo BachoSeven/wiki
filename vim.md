@@ -23,3 +23,17 @@
 # AutoCommands
 ## Temporarily disable aucmds
 `:au!`
+
+# Vimtex
+- i_CTRL-X_CTRL-O starts omni completion (amazing)
+
+# Tags
+- ^] jump to tag under cursor
+- g^] for ambiguous tags
+- ^t jumps back up the tag stack
+
+# Built-in Autocompletion
+- ^x^n for JUST this file
+- ^x^f for filenames
+- ^x^] for TAGS
+- ^n for anything
