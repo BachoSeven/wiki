@@ -28,6 +28,10 @@
 - i_CTRL-X_CTRL-O starts omni completion (amazing)
 
 # Tags
+## Creation
+- install `ctags`
+- `!ctags -R .` (i.e. prepend `command! MakeTags` and map it)
+## Keybindings
 - ^] jump to tag under cursor
 - g^] for ambiguous tags
 - ^t jumps back up the tag stack
