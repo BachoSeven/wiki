@@ -41,3 +41,11 @@
 - ^x^f for filenames
 - ^x^] for TAGS
 - ^n for anything
+
+# Modelines
+- See `:help modelines`. (things like `vim:set et sw=4 ts=4 tw=180:`)
+
+# Replace tabs with spaces:
+``` sh
+1,$s/\t/ /g
+```
