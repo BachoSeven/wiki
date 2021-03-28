@@ -135,3 +135,8 @@
 ```
 shred --remove FILE
 ```
+
+## Useful commands for memory and cpu usage
+- used memory: ` free -h|awk '/^Mem:/ {print $3 "/" $2}'`
+- cpu consuming processes: `ps axch -o cmd:18,%mem,pid --sort -%mem|head`
+- top configuration: `zxcVm1t0W`
