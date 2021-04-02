@@ -38,7 +38,11 @@
 - computer
 - coinstack
 - larry3d
+- chunky
 - lean
+- alpha
+- calvin s
+- twisted
 
 ## Randomly nice packages
 - `fzwal-git`
