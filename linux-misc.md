@@ -32,17 +32,24 @@
 - `xset q` gives you lots of nice information about your current session's configuration.
 
 ## Nice Figlet Fonts
-- univers
 - colossal
 - speed
 - computer
+- emboss
+- emboss2
+- Merlin1
+- ghost
+- Merlin2
 - coinstack
 - larry3d
 - chunky
 - lean
+- miniwi
+- rebel
 - alpha
 - calvin s
 - twisted
+- univers
 
 ## Randomly nice packages
 - `fzwal-git`
