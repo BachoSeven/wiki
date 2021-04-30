@@ -33,6 +33,7 @@
 
 ## Nice Figlet Fonts
 - colossal
+- future (!)
 - speed
 - computer
 - emboss

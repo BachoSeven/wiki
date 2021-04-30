@@ -26,3 +26,10 @@
 - `The Escapists`
 - `Celeste`
 - `SuperMeatBoy`
+
+## Terminal screensavers
+- `tmatrix`
+- `unimatrix`
+- `bash-pipes`
+- `nyancat`
+- `asciiquarium`
