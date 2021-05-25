@@ -11,12 +11,18 @@
 
 ## Typing tutors
 - `typiskt` bash clone of
--`10ff`, python spin-off of https://10fastfingers.com
+- `10ff`, python spin-off of https://10fastfingers.com
 
 ## Others
-- `ccleste, Classic Celeste ported to C.`
+- `ccleste`, Classic Celeste ported to C.
+- `oshu`, Open source clone of osu (present in AUR).
 - `Mindustry` [still in development]
 - `eartwalker`, a self-hosted GeoGuesser.
+
+## Emulators
+- `mgba-qt`, a GBA emulator
+- `melonds`, a Nintendo DS emulator
+- `snes9x-gtk`, a Super NES emulator
 
 ## Steam/GOG/itch.io
 - `tboi`

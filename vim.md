@@ -1,4 +1,12 @@
-# Histories
+# Capitalization
+- `u`/`U` for visual mode
+- `gu`/`gU`<motion> for normal mode
+- `~` switches capitalization, `g~`<motion> does the same on a motion.
+
+# Formatting
+- `gq`<motion> formats the selected lines, using `textwidth`
+
+# History
 
 - `q/` opens an interactive search history
 - `:<C-f>` opens an interactive command-line history; also through `q:`, but we reserved that for the fzf version of cli history.
