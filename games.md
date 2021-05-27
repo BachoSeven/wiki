@@ -4,7 +4,8 @@
 - `zsh`'s TetrisCurses
 - `bastet`- the BAstard TETtris.
 
-## Amazing Ncurses
+## Amazing terminal games
+- `chs-git` play chess against StockFish
 - `bs` Battleship
 - `tty-solitaire` Klondike solitaire
 - `nudoku` Ncurses sudoku
