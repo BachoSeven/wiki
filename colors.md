@@ -44,3 +44,7 @@ bg=Blue, Bold, fg=Red
 ### Sources
 -  http://ascii-table.com/ansi-escape-sequences.php
 -  http://archive.linux.or.jp/JF/JFdocs/Bash-Prompt-HOWTO-5.html
+
+# Gtk themes live-reload
+- `xsettingsd`: https://github.com/derat/xsettingsd/wiki/Settings, https://wiki.archlinux.org/title/Xsettingsd,
+  https://github.com/nimaipatel/dotfiles/tree/master/.config/xsettingsd
