@@ -21,6 +21,7 @@
 
 - `earlier` command
 - `ge` and `gE` are `e` and `E` but going backwards
+- `gv` *goes to the last selection*
 - `:scriptnames` lists the loaded scripts (i.e. plugins)
 - `:verbose COMMAND is useful to debug stuff`
 - `set list` shows unprintable characters
