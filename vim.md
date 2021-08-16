@@ -22,6 +22,7 @@
 - `earlier` command
 - `ge` and `gE` are `e` and `E` but going backwards
 - `gv` *goes to the last selection*
+- `gq` is the basic comand to *format* lines
 - `:scriptnames` lists the loaded scripts (i.e. plugins)
 - `:verbose COMMAND is useful to debug stuff`
 - `set list` shows unprintable characters

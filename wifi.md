@@ -23,3 +23,6 @@ _sauce: [linux-wifi](http://kmkeen.com/linux-wifi/)_
 - *Fragment* your packets (by default they are in one piece): on Linux, `iwconfig INTERFACE frag 256` to chop them up. ~_hurts throughput_
 - Enable *`rts`* handshaking: gets the attention of the AP: on Linux, `iwconfig INTERFACE rts 1` to force-enable it (default is only packets <2kB). ~_hurts throughput_
 - Increase *retry* levels: default is usually 7 attempts; a more reasonable value is `iwconfig INTERFACE retry 30`.
+
+# WPS
+https://askubuntu.com/questions/120367/how-to-connect-to-wi-fi-ap-through-wps
