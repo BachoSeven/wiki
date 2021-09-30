@@ -26,3 +26,6 @@ _sauce: [linux-wifi](http://kmkeen.com/linux-wifi/)_
 
 # WPS
 https://askubuntu.com/questions/120367/how-to-connect-to-wi-fi-ap-through-wps
+
+# WPA Enterprise
+- `nmcli connection add type wifi con-name "Name" ifname wlp2s0 ssid "SSID" -- wifi-sec.key-mgmt wpa-eap 802-1x.eap peap 802-1x.phase2-auth mschapv2 802-1x.identity "USERNAME" 802-1x.password "PWD"`
