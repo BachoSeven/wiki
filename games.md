@@ -24,6 +24,7 @@
 - `mgba-qt`, a GBA emulator
 - `melonds`, a Nintendo DS emulator
 - `snes9x-gtk`, a Super NES emulator
+- `nestopia`, a NES emulator
 - `ppsspp`, a PSP emulator
 
 ## Steam/GOG/itch.io
