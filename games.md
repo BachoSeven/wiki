@@ -22,6 +22,7 @@
 
 ## Emulators
 - `mgba-qt`, a GBA emulator
+- `citra-qt-bin`, a 3DS emulator
 - `melonds`, a Nintendo DS emulator
 - `snes9x-gtk`, a Super NES emulator
 - `nestopia`, a NES emulator
