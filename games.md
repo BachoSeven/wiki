@@ -10,9 +10,11 @@
 - `tty-solitaire` Klondike solitaire
 - `nudoku` Ncurses sudoku
 
-## Typing tutors
+## Cool typing tutors
 - `typiskt` bash clone of
 - `10ff`, python spin-off of https://10fastfingers.com
+- `ttyper` (terminal-based, Rust)
+- `typespeed` terminal-based tutor, contains multiple languages
 
 ## Others
 - `ccleste`, Classic Celeste ported to C.
