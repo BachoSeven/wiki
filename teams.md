@@ -19,3 +19,6 @@ it's around line 550
 
 
 Unfortunately, this will need to be repeated every time the app is updated but until a proper fix is released it should help.
+
+### Source
+view-source:https://web.archive.org/web/20211030224842/https://microsoftteams.uservoice.com/forums/555103-public/suggestions/39231850-native-window-borders-and-header-in-linux-app
