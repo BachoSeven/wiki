@@ -13,9 +13,9 @@ sudo mkdir app && sudo asar extract app.asar app
 ```
 
 ### New Version (works for sure with 1.4.00.26453)
-- Run this command as root:
+- Run the following command:
 ``` sh
-sed -i 's/frame:!1/frame:!0/g' app/main.bundle.js
+sudo sed -i 's/frame:!1/frame:!0/g' app/main.bundle.js
 ```
 
 ### Old Version
