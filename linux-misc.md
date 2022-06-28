@@ -63,7 +63,7 @@
 - `vizex`
 
 ## Mount .iso dvd image
-- `sudo mount -t iso9660 -o loop .iso /mnt/iso`
+- `sudo mount -t iso9660 -o ro,loop .iso /mnt/iso`
 
 ## Grub
 ### Interesting "ricing" kernel command-line options
