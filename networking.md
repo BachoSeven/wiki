@@ -12,3 +12,6 @@
 
 ## Changing your MAC Address
 `sudo ip link set dev IF address XX:XX:XX:XX:XX:XX`
+
+## Enabling IP forward
+`sudo sysctl -w net.ipv4.ip_forward=1`

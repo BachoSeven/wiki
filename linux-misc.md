@@ -152,6 +152,3 @@ shred --remove FILE
 - used memory: ` free -h|awk '/^Mem:/ {print $3 "/" $2}'`
 - cpu consuming processes: `ps axch -o cmd:18,%mem,pid --sort -%mem|head`
 - top configuration: `zxcVm1t0W`
-
-## Temporarily inhibit sleep on closing lid
-`systemd-inhibit --what=handle-lid-switch sleep 10m`
