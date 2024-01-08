@@ -3,6 +3,18 @@
 - `gu`/`gU`<motion> for normal mode
 - `~` switches capitalization, `g~`<motion> does the same on a motion.
 
+# Registers
+- `"=` is the *expression* register, it eats vimscript expressions
+
+# Marks
+- `mx` sets a mark at cursor, per buffer
+- `mX` sets a mark at cursor, **globally**
+- `'x` (resp. `'X`) jumps to the `x`/`X` mark
+
+# Visual mode
+- `o` moves to the "other end" of the selection
+  (for rectangular blocks, it's the opposite corner)
+
 # Formatting
 - `gq`<motion> formats the selected lines, using `textwidth`
 
@@ -16,6 +28,7 @@
 - Spelling: `zg` good, `zw` bad; `zug` and `zuw` undo.
 - `zt`, `zb`, `zz` to move view maintaining cursor;
 - Folds, tl;dr: `za` to toggle fold(`zA` recursively), `zc` to close it(`zC` recursively), `zO` to open folds recursively(`zo`), `zd` to delete a fold(`zD` recursively), `zf` to create folds with movements, `zE` to eliminate folds entirely; `z[j-k]` are for navigating around folds.
+- To save folds on exit: `:mkview`
 
 # Random stuff
 
@@ -35,7 +48,7 @@
 `:au!`
 
 # Vimtex
-- i_CTRL-X_CTRL-O starts omni completion (amazing)
+- `ctrl-x_ctrl-O` starts omni completion (amazing)
 
 # Tags
 ## Creation
